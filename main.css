@@ -1,1 +1,87 @@
-/* ADD YOUR STYLES HERE */
+/* START OF FIRST QUESTION */
+
+.instruction-text {
+	font-size: 1.5em;
+}
+
+.table-bordered { 
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+
+.table-bordered td { 
+	font-size: 1em;
+    padding: 10px 150px 10px 0px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.table-bordered td:first-child {
+	padding-right: 75px;
+}
+
+.table-bordered tr:last-child td {
+	border-bottom: none;
+}
+
+/* START OF SECOND QUESTION */
+
+.stats-bordered {
+	border-spacing: 10px;
+    border-collapse: collapse;
+	border-top: 1px solid #d3d3d3;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+.stats-bordered td { 
+	font-size: 1em;
+    padding: 10px 25px 20px 0px;
+}
+
+.stats-bordered td:first-child { 
+	margin-left: 20px;
+	padding-left: 20px;
+}
+
+.stats-bordered-boldnumbers {
+	font-size: 2em;
+	font-weight: bolder;
+	margin: 5px;
+	padding: 5px;
+}
+
+.stats-bordered-description {
+	color: #d3d3d3;
+	margin-top: -10px;
+}
+
+.bar-chart-table {
+	width: 90%;
+}
+
+.bar-chart-table tr th {
+	margin-bottom: 10px;
+	width: 90px;
+}
+
+.bar-chart-titles {
+	font-weight: bolder;
+	text-align: right;
+	margin: 0px 15px 0px 0px;
+}
+
+.bar-chart-percentages {
+	font-size: 0.9em;
+	color: #fff;
+	padding: 3px 0px 0px 5px;
+	vertical-align: middle;
+	margin: 2px 0px 2px 15px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 20px;
+	background-color: rgb(102, 156, 255);
+	width: 100%;
+}
+
+
+
+
